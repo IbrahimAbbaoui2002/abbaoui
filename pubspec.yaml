@@ -1,0 +1,63 @@
+name: testapp
+description: "A professional file sharing app using Wi-Fi Direct and local network discovery"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  
+  # Networking & Connectivity
+  nearby_connections: ^3.3.1
+  network_info_plus: ^5.0.3
+  socket_io_client: ^2.0.3+1
+  
+  # File Operations
+  file_picker: ^8.3.7
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  open_filex: ^4.5.0
+  
+  # Device & System
+  device_info_plus: ^10.1.2
+  permission_handler: ^11.4.0
+  
+  # Storage & Persistence
+  shared_preferences: ^2.3.2
+  
+  # Utilities
+  uuid: ^4.5.1
+  crypto: ^3.0.5
+  intl: ^0.19.0
+  
+  # UI & Scanning
+  qr_code_scanner: ^1.0.1
+  
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # App Icon
+  # assets:
+  #   - images/
+  
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
